@@ -24,6 +24,7 @@ class Game:
         self.computer = Hero("Компьютер")
 
     def start(self):
+        print("🛡️ Игра начинается! 🗡️")
         print(self.player)
         print(self.computer)
         print()
